@@ -29,7 +29,7 @@
     <br />
     <br />
     ·
-    <a href="https://github.com/JDSanti/Server_Checkerr/issues">Report Bug</a>
+    <a href="https://github.com/JDSanti/Server_Checker/issues">Report Bug</a>
     ·
     <a href="https://github.com/JDSanti/Server_Checker/issues">Request Feature</a>
     ·
