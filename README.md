@@ -1,7 +1,7 @@
 <div id="top"></div>
 <!--
 *** Jose Santiago
-*** 2019 Barcode Scanner
+*** 2022 Server Checker
 -->
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -20,10 +20,10 @@
     <img src="images/Logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Barcode Scanner</h3>
+<h3 align="center">Server Checker</h3>
 
   <p align="center">
-    Barcode Scanner using a USB Camera, OpenCV for image analysis and TKinter for GUI
+    Server checker script 
     <br />
     <a href="https://github.com/JDSanti/BarcodeScanner"><strong>Explore the docs »</strong></a>
     <br />
@@ -77,9 +77,9 @@
 ### Built With
 
 * [Python](https://www.python.org/downloads/)
-* [TKinter](https://docs.python.org/3/library/tkinter.html)
-* [Open CV](https://pypi.org/project/opencv-python/)
-* [Pillow](https://pypi.org/project/Pillow/)
+* [Twilio](https://docs.python.org/3/library/tkinter.html)
+* [Gmail](https://pypi.org/project/opencv-python/)
+* [Raspberry Pi](https://pypi.org/project/Pillow/)
 * [Time](https://docs.python.org/3/library/time.html)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
