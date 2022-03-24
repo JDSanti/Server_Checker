@@ -16,7 +16,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/JDSanti/BarcodeScanner">
+  <a href="https://github.com/JDSanti/Server_Checker">
     <img src="images/Logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -25,13 +25,13 @@
   <p align="center">
     Server checker script 
     <br />
-    <a href="https://github.com/JDSanti/BarcodeScanner"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/JDSanti/Server_Checker"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     ·
-    <a href="https://github.com/JDSanti/BarcodeScanner/issues">Report Bug</a>
+    <a href="https://github.com/JDSanti/Server_Checkerr/issues">Report Bug</a>
     ·
-    <a href="https://github.com/JDSanti/BarcodeScanner/issues">Request Feature</a>
+    <a href="https://github.com/JDSanti/Server_Checker/issues">Request Feature</a>
     ·
   </p>
 </div>
@@ -69,7 +69,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/JDSanti/BarcodeScanner)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/JDSanti/Server_Checker)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -110,7 +110,7 @@ This is an example of how to list things you need to use the software and how to
 ## Usage
 1. Clone the repo
    ```sh
-   git clone https://github.com/JDSanti/BarcodeScanner.git
+   git clone https://github.com/JDSanti/Server_Checker.git
    ```
 2. Run script to open GUI
    ```sh
@@ -131,7 +131,7 @@ This is an example of how to list things you need to use the software and how to
     - [ ] Exiting
     - [ ] Saving
 
-See the [open issues](https://github.com/JDSanti/BarcodeScanner/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/JDSanti/Server_Checker/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -169,7 +169,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@Capt_Santiago](https://twitter.com/Capt_Santiago) - jduhamel.santiago@gmail.com
 
-Project Link: [https://github.com/JDSanti/BarcodeScanner](https://github.com/JDSanti/BarcodeScanner)
+Project Link: [https://github.com/JDSanti/Server_Checker](https://github.com/JDSanti/Server_Checker)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -184,16 +184,16 @@ Project Link: [https://github.com/JDSanti/BarcodeScanner](https://github.com/JDS
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/JDSanti/BarcodeScanner.svg?style=for-the-badge
-[contributors-url]: https://github.com/JDSanti/BarcodeScanner/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/JDSanti/BarcodeScanner.svg?style=for-the-badge
-[forks-url]: https://github.com/JDSanti/BarcodeScanner/network/members
-[stars-shield]: https://img.shields.io/github/stars/JDSanti/BarcodeScanner.svg?style=for-the-badge
-[stars-url]: https://github.com/JDSanti/BarcodeScanner/stargazers
-[issues-shield]: https://img.shields.io/github/issues/JDSanti/BarcodeScanner.svg?style=for-the-badge
-[issues-url]: https://github.com/JDSanti/BarcodeScanner/issues
-[license-shield]: https://img.shields.io/github/license/JDSanti/BarcodeScanner.svg?style=for-the-badge
-[license-url]: https://github.com/JDSanti/BarcodeScanner/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/JDSanti/Server_Checker.svg?style=for-the-badge
+[contributors-url]: https://github.com/JDSanti/Server_Checker/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/JDSanti/Server_Checker.svg?style=for-the-badge
+[forks-url]: https://github.com/JDSanti/Server_Checker/network/members
+[stars-shield]: https://img.shields.io/github/stars/JDSanti/Server_Checker.svg?style=for-the-badge
+[stars-url]: https://github.com/JDSanti/Server_Checker/stargazers
+[issues-shield]: https://img.shields.io/github/issues/JDSanti/Server_Checker.svg?style=for-the-badge
+[issues-url]: https://github.com/JDSanti/Server_Checker/issues
+[license-shield]: https://img.shields.io/github/license/JDSanti/Server_Checker.svg?style=for-the-badge
+[license-url]: https://github.com/JDSanti/Server_Checker/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jduhamelsantiago/
 [product-screenshot]: images/Screenshot.png
