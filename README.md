@@ -92,24 +92,28 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-After creating an account on Twilio and a GMail account 
-Twilio
-See the [Twilio Documentation](https://www.twilio.com/docs/libraries/python#install-the-library) for project description.
 1. Sign up for (or log in to) your Twilio account (<https://www.twilio.com/try-twilio>)
 
 2. Get a phone number with SMS (and MMS) capabilities from Twilio
-   ```sh
-   python3 BarcodeScanner.py
-   ```
-4. Send an SMS message in Python via the REST API
-https://www.twilio.com/docs/sms/tutorials/how-to-send-sms-messages-python#send-an-sms-message-in-python-via-the-rest-api
 
-Yagmail
+3. Get your Twilio account SID and Auth Token
+
+5. Use your own Gmail account or create a new one for the usage of this script
+
+For additonal help please refer to libraries documentation below:
+-Yagmail
 See the [Yagmail Documentation](https://pypi.org/project/yagmail/) for project description.
+
+-Twilio
+See the [Twilio Documentation](https://www.twilio.com/docs/libraries/python#install-the-library) for project description.
 
 ### Prerequisites
 
-This is an list of how to list things you need to use the software and how to install them.
+1. If using a Rapsberry Pi, make sure to install your flavor of OS and run its appropriate updates, also make sure that python is installed and updated
+  ```sh
+  python -V 
+  ```
+2. Install required packages
 * Twilio
   ```sh
   pip3 install twilio 
@@ -118,9 +122,12 @@ This is an list of how to list things you need to use the software and how to in
   ```sh
   pip3 install yagmail 
   ```
-* TKinter
+3. Send an SMS message in Python via the REST API to make sure your account is properly setup
+https://www.twilio.com/docs/sms/tutorials/how-to-send-sms-messages-python#send-an-sms-message-in-python-via-the-rest-api
+
+4. Test sending email with simple one liner:
   ```sh
-  pip install tk 
+  yagmail.SMTP('mygmailusername').send('to@someone.com', 'subject', 'This is the body')
   ```
 
 <!-- USAGE EXAMPLES -->
@@ -129,12 +136,25 @@ This is an list of how to list things you need to use the software and how to in
    ```sh
    git clone https://github.com/JDSanti/Server_Checker.git
    ```
-2. Run script to open GUI
+2. Setup your own email and password on script by replacing "email" and "password" with your own **NOTE: This method is not recommended, since you would be storing the full credentials to your account in your script in plain text. I did it for simplicity purposes but please refer to https://yagmail.readthedocs.io/en/latest/setup.html#configuring-credentials for proper storage of passwords.
    ```sh
-   python3 BarcodeScanner.py
+   yag = yagmail.SMTP('email', 'password')
    ```
-4. Press "Scan for Barcode" button to scan the barcode on the video. Should print out the barcode on the terminal
-
+3. Setup your own phone numbers on script by replacing "from" and "to" variables with your own
+   ```sh
+    from_='+15555555555',
+            to='+15555555555'
+        )
+   ```
+3. Replace "server.com" with the domain of the web server you want to test. It can test multiple servers ["server.com","server2.com"] 
+   ```sh
+   servers_to_check=["server.com"]
+   ```
+4. Run script 
+   ```sh
+   python3 server.py
+   ```
+5. Setup as cron job
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
