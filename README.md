@@ -73,10 +73,6 @@
 [![Email Name Screen Shot][email-screenshot]](https://github.com/JDSanti/Server_Checker)
 [![Text  Screen Shot][text-screenshot]](https://github.com/JDSanti/Server_Checker)
 
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 ### Built With
 
 * [Python](https://www.python.org/downloads/)
@@ -84,10 +80,6 @@
 * [Yagmail](https://yagmail.readthedocs.io/en/latest/setup.html)
 * [Gmail](https://mail.google.com/)
 * [Raspberry Pi](https://www.raspberrypi.com/products/raspberry-pi-zero/)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -101,10 +93,11 @@
 5. Use your own Gmail account or create a new one for the usage of this script
 
 For additonal help please refer to libraries documentation below:
--Yagmail
+
+* Yagmail
 See the [Yagmail Documentation](https://pypi.org/project/yagmail/) for project description.
 
--Twilio
+* Twilio
 See the [Twilio Documentation](https://www.twilio.com/docs/libraries/python#install-the-library) for project description.
 
 ### Prerequisites
