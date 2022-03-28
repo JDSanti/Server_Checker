@@ -69,7 +69,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/JDSanti/Server_Checker)
+[![Product  Screen Shot][product-screenshot]](https://www.amazon.com/iUniker-Expansion-Breakout-Raspberry-Inserted/dp/B07NKNBZYG?ref_=ast_sto_dp)
+[![Email Name Screen Shot][email-screenshot]](https://github.com/JDSanti/Server_Checker)
+[![Text  Screen Shot][text-screenshot]](https://github.com/JDSanti/Server_Checker)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -89,17 +92,32 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Tkinter and time libraries should be pre-installed when you install python but you can install them if needed.
+After creating an account on Twillio and a GMail account 
+Twillio
+See the [Twillio Documentation](https://www.twilio.com/docs/libraries/python#install-the-library) for project description.
+1. Sign up for (or log in to) your Twilio account
+   ```sh
+   git clone https://github.com/JDSanti/Server_Checker.git
+   ```
+2. Get a phone number with SMS (and MMS) capabilities
+   ```sh
+   python3 BarcodeScanner.py
+   ```
+4. Send an SMS message in Python via the REST API
+
+Yagmail
+See the [Yagmail Documentation](https://pypi.org/project/yagmail/) for project description.
+
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* OpenCV
+This is an list of how to list things you need to use the software and how to install them.
+* Twilio
   ```sh
-  pip install opencv-python 
+  pip3 install twilio 
   ```
-* Pillow
+* Yagmail
   ```sh
-  pip install Pillow 
+  pip3 install yagmail 
   ```
 * TKinter
   ```sh
@@ -176,7 +194,7 @@ Project Link: [https://github.com/JDSanti/Server_Checker](https://github.com/JDS
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
+* [Larymak for his Script of Server checking](https://github.com/larymak/Python-project-Scripts/tree/main/ServerChecker)
 * []()
 * []()
 
@@ -196,4 +214,7 @@ Project Link: [https://github.com/JDSanti/Server_Checker](https://github.com/JDS
 [license-url]: https://github.com/JDSanti/Server_Checker/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jduhamelsantiago/
-[product-screenshot]: images/Screenshot.png
+[product-screenshot]: images/pizero.jpg
+[text-screenshot]: images/Text.png
+[email-screenshot]: images/Email.png
+
