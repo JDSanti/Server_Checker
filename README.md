@@ -80,10 +80,10 @@
 ### Built With
 
 * [Python](https://www.python.org/downloads/)
-* [Twilio](https://docs.python.org/3/library/tkinter.html)
-* [Gmail](https://pypi.org/project/opencv-python/)
-* [Raspberry Pi](https://pypi.org/project/Pillow/)
-* [Time](https://docs.python.org/3/library/time.html)
+* [Twilio](https://www.twilio.com/)
+* [Yagmail](https://yagmail.readthedocs.io/en/latest/setup.html)
+* [Gmail](https://mail.google.com/)
+* [Raspberry Pi](https://www.raspberrypi.com/products/raspberry-pi-zero/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
