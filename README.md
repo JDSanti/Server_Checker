@@ -92,14 +92,12 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-After creating an account on Twillio and a GMail account 
-Twillio
-See the [Twillio Documentation](https://www.twilio.com/docs/libraries/python#install-the-library) for project description.
-1. Sign up for (or log in to) your Twilio account
-   ```sh
-   git clone https://github.com/JDSanti/Server_Checker.git
-   ```
-2. Get a phone number with SMS (and MMS) capabilities
+After creating an account on Twilio and a GMail account 
+Twilio
+See the [Twilio Documentation](https://www.twilio.com/docs/libraries/python#install-the-library) for project description.
+1. Sign up for (or log in to) your Twilio account (<https://www.twilio.com/try-twilio>)
+
+2. Get a phone number with SMS (and MMS) capabilities from Twilio
    ```sh
    python3 BarcodeScanner.py
    ```
@@ -144,11 +142,10 @@ This is an list of how to list things you need to use the software and how to in
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Scan Barcodes
-- [x] Be able to take screenshot of Barcode
-- [ ] Setup working buttons
-    - [ ] Exiting
-    - [ ] Saving
+- [x] Implement texting ability
+- [x] Implement email ability
+- [x] Setup as cron job on Pi Zero
+
 
 See the [open issues](https://github.com/JDSanti/Server_Checker/issues) for a full list of proposed features (and known issues).
 
@@ -186,7 +183,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@Capt_Santiago](https://twitter.com/Capt_Santiago) - jduhamel.santiago@gmail.com
+Jose Santiago - [@Capt_Santiago](https://twitter.com/Capt_Santiago) - jduhamel.santiago@outlook.com
 
 Project Link: [https://github.com/JDSanti/Server_Checker](https://github.com/JDSanti/Server_Checker)
 
@@ -195,9 +192,8 @@ Project Link: [https://github.com/JDSanti/Server_Checker](https://github.com/JDS
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Larymak for his Script of Server checking](https://github.com/larymak/Python-project-Scripts/tree/main/ServerChecker)
-* []()
-* []()
+* [Larymak for his script of server checking](https://github.com/larymak/Python-project-Scripts/tree/main/ServerChecker)
+* [How to send text message on python guide](https://www.twilio.com/blog/2016/04/how-to-send-a-text-message-with-python.html)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
