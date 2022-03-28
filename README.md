@@ -53,6 +53,7 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#documentation">Documentation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -84,6 +85,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
+### Prerequisites
 1. Sign up for (or log in to) your Twilio account (<https://www.twilio.com/try-twilio>)
 
 2. Get a phone number with SMS (and MMS) capabilities from Twilio
@@ -92,15 +94,7 @@
 
 5. Use your own Gmail account or create a new one for the usage of this script
 
-For additonal help please refer to libraries documentation below:
-
-* Yagmail
-See the [Yagmail Documentation](https://pypi.org/project/yagmail/) for project description.
-
-* Twilio
-See the [Twilio Documentation](https://www.twilio.com/docs/libraries/python#install-the-library) for project description.
-
-### Prerequisites
+### Installation
 
 1. If using a Rapsberry Pi, make sure to install your flavor of OS and run its appropriate updates, also make sure that python is installed and updated
   ```sh
@@ -122,6 +116,14 @@ https://www.twilio.com/docs/sms/tutorials/how-to-send-sms-messages-python#send-a
   ```sh
   yagmail.SMTP('mygmailusername').send('to@someone.com', 'subject', 'This is the body')
   ```
+### Documentation
+For additonal help please refer to libraries documentation below:
+
+* Yagmail
+See the [Yagmail Documentation](https://pypi.org/project/yagmail/) for project description.
+
+* Twilio
+See the [Twilio Documentation](https://www.twilio.com/docs/libraries/python#install-the-library) for project description.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
