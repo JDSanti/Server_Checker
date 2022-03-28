@@ -100,7 +100,7 @@
   ```sh
   python -V 
   ```
-2. Install required packages
+2. Install required packages:
 * Twilio
   ```sh
   pip3 install twilio 
