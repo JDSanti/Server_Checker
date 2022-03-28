@@ -216,5 +216,5 @@ Project Link: [https://github.com/JDSanti/Server_Checker](https://github.com/JDS
 [linkedin-url]: https://www.linkedin.com/in/jduhamelsantiago/
 [product-screenshot]: images/pizero.jpg
 [text-screenshot]: images/Text.png
-[email-screenshot]: images/Email.png
+[email-screenshot]: images/Email2.png
 
