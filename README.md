@@ -104,6 +104,7 @@ See the [Twillio Documentation](https://www.twilio.com/docs/libraries/python#ins
    python3 BarcodeScanner.py
    ```
 4. Send an SMS message in Python via the REST API
+https://www.twilio.com/docs/sms/tutorials/how-to-send-sms-messages-python#send-an-sms-message-in-python-via-the-rest-api
 
 Yagmail
 See the [Yagmail Documentation](https://pypi.org/project/yagmail/) for project description.
